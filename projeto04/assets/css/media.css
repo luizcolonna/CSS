@@ -1,0 +1,77 @@
+@media screen and (max-width:450px) {
+    
+    header{
+        width: auto;
+        align-items: flex-start;
+        height: auto;
+        gap: 50px;
+        padding: 65px 15px;
+    }
+
+    header h1{
+        font-size: 2.6rem;
+        width: 70%;
+        text-align: left;
+    }
+
+    header p{
+        text-align: left;
+        width: 95%;
+    }
+
+    .btns-header{
+        flex-direction: column;
+        width: 95%;
+        gap: 25px;
+        align-items: stretch;
+        margin-left: 8px;
+    }
+
+    /*#######################################*/
+
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-2{
+        flex-direction: column-reverse;
+    }
+
+    section .container-1{
+        gap: 17px;
+    }
+
+    section .container-1 p{
+        width: 22rem;
+        font-size: 0.9rem;
+    }
+
+    section .container-1 h2{
+        font-size: 1.5rem;
+    }
+
+    .last{
+        align-items: start;
+        padding-bottom: 20px;
+    }
+
+    .last h1{
+        font-size: 1.8rem;
+        text-align: left;
+        width: 90%;
+        margin: 0px 15px 0px 17px;
+    }
+
+    .last p{
+        width: 21rem;
+        text-align: left;
+        font-size: 0.9rem;
+        margin: 10px 15px 0px 17px;
+    }
+
+    .last img{
+        max-width: 93%;
+        margin: 0px 15px 0px 17px;
+    }
+}

@@ -1,0 +1,250 @@
+@import url(./reset.css);
+
+body{
+    background-color: white;
+}
+
+.container{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*####### CSS - BOTAO DE NAVEGACAO + LOGO DO YOUTUBE ######*/
+.container #container-1a{
+    width: 12.5rem;
+    height: 4.17rem;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.container #container-1a #btnNavegacao{
+    width: 2rem;
+    height: 1.9rem;
+}
+
+.container #container-1a #logo-youtube{
+    width: 7.7rem;
+    height: 1.8rem;
+}
+
+/*#############################################################*/
+
+
+/*############ CAMPO E BOTÃO PESQUISAR ########################*/
+
+.container #container-1b{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container #container-1b #textoBuscar{
+    width: 28rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.container #container-1b #btnBuscar{
+    width: 3.2rem;
+    height: 2.5rem;
+    padding: 10px;
+    margin-left: -1px;
+    border: 1px solid #CCCCCC;
+    background-color: #F8F8F8;
+    border-radius: 0px 3px 3px 0px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1.5rem 1.5rem;
+    cursor: pointer;
+}
+
+/*#############################################################*/
+
+
+/*############### VIDEO, NOTIFICAÇÃO E PERFIL #################*/
+.container #container-1c{
+    width: 10rem;
+    height: 4.17rem;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container #container-1c .right{
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+.container #container-1c #avatar{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*#############################################################*/
+
+/*TELA INTEIRA*/
+#principal{
+    height: 80rem;
+    display: flex;
+}
+
+#principal #pLeft{
+    margin-top: 55px;
+    margin-left: 85px;
+    width: 58.2%;
+}
+
+#title-video{
+    font-weight: 600;
+    font-size: 1.67rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Video-Actions{
+    width: 70.83rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#boxA{
+    width: 13.33rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+#logo-dio{
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+#img-dio{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.inscritos{
+    cursor: pointer;
+    font-size: 1.17rem;
+    line-height: 16.41px;
+}
+
+#info-dio{
+    margin-left: 10px;
+}
+
+#texto-dio{
+    font-weight: 600;
+}
+
+#inscritos-dio{
+    color: #515151;
+}
+
+#inscreva-se{
+    text-transform: uppercase;
+    background-color: #CC0000;
+    color: #FFFFFF;
+    padding: 12px 30px 12px 30px;
+    border-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.imgPadrao{
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2px;
+    margin-right: 4px;
+}
+
+.padrao{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    font-size: 1.17rem;
+
+}
+
+#boxC{
+    width: 5.8rem;
+    font-weight: 600;
+}
+
+#boxD{
+    width: 7.2rem;
+    font-weight: 600;
+}
+
+#boxE{
+    width: 8.4rem;
+    font-weight: 600;
+}
+
+#boxF{
+    width: 6.9rem;
+    font-weight: 600;
+}
+
+#transmissao{
+    margin-top: 30px;
+    width: 92.16rem;
+    height: 9.3rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px 20px 20px 10px;
+}
+
+#transmissao #views{
+    margin-left: 17px;
+    font-weight: 600;
+    font-size: 1.17rem;
+}
+
+#transmissao #views2{
+    margin-left: 17px;
+    color: #515151;
+    /*width: 50rem;*/
+    line-height: 20px;
+
+}
+
+/*################### VIDEOS LATERAIS ####################*/
+
+
+#pRight #lateral{
+    margin-top: 55px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#pRight img{
+    cursor: pointer;
+}

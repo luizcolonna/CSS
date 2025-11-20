@@ -1,0 +1,1 @@
+Este projeto do clone do site do youtube tem como objetivo demonstrar os conhecimentos obtidos através do curso de CSS da plataforma DIO utilizando a propriedade display e suas demais funcionalidades. 

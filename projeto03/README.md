@@ -1,0 +1,1 @@
+Este é um projeto de clone do site do youtube e tem como objetivo demonstrar os conhecimentos obtidos através das aulas da plataforma DIO acerca do "display grid", mas também utilizando em alguns momentos o "display flex".
