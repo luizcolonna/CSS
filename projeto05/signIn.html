@@ -1,0 +1,148 @@
+<!-- TODO -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar | HBO Max</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./assets/css/key_frames.css">
+
+    <style>
+
+        .login__content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 80vh;
+            padding: 24px;
+            margin-top: 55px;
+            background: url(./assets/images/background-movies-series.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .login{
+            width: 100%;
+            max-width: 650px;
+            background-color: var(--form-bg-color);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding: 40px;
+        }
+        
+        input{
+            background: var(--form-field-bg-color);
+            border: var(--form-field-border);
+            border-radius: 8px;
+            color: var(--text-color);
+            padding: 16px;
+            font-size: 1.2rem;
+        }
+
+        input::placeholder{
+            color: var(--text-color);
+        }
+
+        input:focus {
+            border: 2px groove;
+        }
+
+        input:invalid {
+            border: 1px solid var(--form-field-error);
+        }
+
+        input::placeholder {
+            color: var(--form-field-placeholder);
+        }
+
+        .login h1{
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .login__buttons{
+            display: flex;
+            align-items: center;
+        }
+
+        .login label{
+            font-size: 1.2rem;
+        }
+
+        .login__button{
+            padding: 16px 40px;
+        }
+
+        .login__buttons a{
+            color: var(--link-color);
+            text-decoration: none;
+            margin-left: 24px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .footer__content{
+            margin-top: -100px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="index.html" class="logo">
+            <img
+              src="./assets/images/hbo-logo.svg"
+              alt="Logotipo da HBOmax"
+              class="logo-image"/>
+        </a>
+        <div class="menu__btn">
+            <a class="menu__item menu_item-1" href="signIn.html">Entrar</a>
+            <a class="menu__item menu_item-2" href="#">Assine agora</a>
+        </div>
+    </nav>
+
+    <main class="login__content">
+        <form class="login">
+            <h1>Entrar</h1>
+            <label>Você tem uma conta da HBO Max?</label>
+            <input type="email" id="email" placeholder="Endereço de e-mail">
+            <input type="password" id="senha" placeholder="Senha">
+            <div class="login__buttons">
+                <button type="submit" class="button--gradient button login__button">Entrar</button>
+                <a href="#"> Esqueceu a senha? </a>
+            </div>
+        </form>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__title">
+                <a class="footer__link" href="#">Agora na hbo max</a>
+                <a class="footer__link" href="#">Em breve</a>
+                <a class="footer__link" href="#">Filmes</a>
+                <a class="footer__link" href="#">Series</a>
+                <a class="footer__link" href="#">Ajuda</a>
+            </div>
+            <p class="footer__legal">© 2022 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</p>
+            <div class="footer__social">
+                <img class="social" src="./assets/images/fb_0.png" alt="">
+                <img class="social" src="./assets/images/twitter_0.png" alt="">
+                <img class="social" src="./assets/images/instagram_0.png" alt="">
+                <img class="social" src="./assets/images/youtube_0.png" alt=""></div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
